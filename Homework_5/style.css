@@ -1,0 +1,36 @@
+.first-block-1 {
+  float: left;
+}
+.first-block-2 {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+.second-block-1 {
+  float: left;
+}
+.second-block-group {
+  float: right;
+}
+.second-block-2,
+.second-block-3,
+.second-block-4,
+.second-block-5 {
+  float: left;
+}
+.third-block-group-1 {
+  float: left;
+}
+.third-block-group-2 {
+  float: right;
+}
+.third-block-1,
+.third-block-2 {
+  float: left;
+}
+.third-block-3,
+.third-block-4 {
+  float: left;
+}
