@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header_wrap {
+  background-color: #eeeff1;
+  height: 700px;
+}
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-right: 42px;
+}
+.nav-item:first-child {
+  color: #34547a;
+}
+.navbar {
+  padding-top: 79px;
+  padding-left: 399px;
+}
+.main-title {
+  font-size: 48px;
+}
+.header-title {
+  padding-top: 100px;
+  padding-left: 399px;
+}
+.header-description {
+  /* max-width: 540px; */
+  padding-left: 399px;
+  margin-top: -10px;
+}
+.button {
+  margin-left: 399px;
+  width: 225px;
+  height: 65px;
+  background-color: #34547a;
+  color: aliceblue;
+  margin-top: 65px;
+}
+.about-block {
+  margin: 80px auto;
+  max-width: 540px;
+}
+.about-title {
+  font-size: 32px;
+  text-align: center;
+}
+.about-decription {
+  text-align: center;
+  font-size: 16px;
+}
+.main {
+  padding: 0;
+  margin: 0;
+}
+.icons-block {
+  height: 250px;
+  background-color: #34547a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons-block-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 30px;
+}
+.video-block {
+  height: 1004px;
+  background-color: #eeeff1;
+  padding-top: 100px;
+}
+.video-block-title,
+.video-block-description {
+  text-align: center;
+}
+.video-block-title {
+  font-size: 32px;
+}
+.video-block-description {
+  font-size: 16px;
+}
+.video-item {
+  display: flex;
+  justify-content: center;
+}
+.footer-wrap {
+  padding-top: 50px;
+  height: 151px;
+  background-color: #34547a;
+}
+.footer-title,
+.footer-description {
+  color: aliceblue;
+  margin-left: 406px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
