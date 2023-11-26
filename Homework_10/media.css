@@ -1,0 +1,223 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  * {
+    font-size: small !important;
+  }
+  .container {
+    max-width: none;
+  }
+  .title-block,
+  .navigation,
+  .navigation__bar,
+  .container__text,
+  .brands-bar,
+  .products,
+  .popular-product,
+  .slider,
+  .recomendation,
+  .reviev,
+  .footer-head,
+  .popular-roduct__container {
+    flex-direction: column;
+  }
+  .brands-bar,
+  .slider-backgroud,
+  .recomendation,
+  .reviev__description {
+    margin: 25px 0;
+  }
+  .popular-product__black img,
+  .popular-product_brown img {
+    max-width: 100%;
+  }
+  .popular-product__black,
+  .popular-product_brown {
+    display: flex;
+    flex-direction: column;
+  }
+  .products-text__description,
+  .footer-main,
+  .footer-head {
+    padding: 0;
+  }
+  .container__text-description,
+  .products-text__description,
+  .products-text__title {
+    text-align: center;
+  }
+  .container__img-img,
+  .recomendation__img-img,
+  .reviev__img-img {
+    display: none;
+  }
+  .products-text__title,
+  .recomendation__title,
+  .reviev__title,
+  .search-block__title,
+  .footer-main__title {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+  .container__text-search {
+    width: auto;
+    margin-bottom: 10px !important;
+  }
+  .container__text {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .brands-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    place-items: center;
+  }
+  .brands-bar__banner {
+    margin: 8px 0;
+  }
+  .navigation__logo {
+    margin-top: 20px;
+    font-size: 25px !important;
+  }
+  .navigation {
+    padding: 0;
+    /* flex-direction: row; */
+  }
+  .navigation__bar {
+    flex-direction: row;
+    margin: 13px 0;
+  }
+  .navigation__link {
+    margin: 0 6px;
+    font-size: 16px !important;
+  }
+  .container__text-title {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+  .products__link {
+    justify-content: center;
+    font-size: 16px !important;
+  }
+  .popular-product__button-buy,
+  .popular-product__button-add,
+  .container__text-button {
+    padding: 8px 16px;
+    margin: 0;
+  }
+  .popular-product__title,
+  .reviev__subtitle {
+    font-size: 16px !important;
+  }
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+  }
+  .popular-roduct__container {
+    margin: 0;
+  }
+  .popular-product__price {
+    order: -1;
+  }
+  .button-container button {
+    margin: 0;
+  }
+  .slider {
+    align-items: center;
+  }
+  .slider__block {
+    padding: 0;
+    text-align: center;
+  }
+  .slider__tittle {
+    font-size: 20px !important;
+    font-weight: 800 !important;
+  }
+  .recomendation__text,
+  .reviev__text {
+    margin: 0;
+    padding: 0 10px;
+  }
+  .recomendation__title {
+    font-size: 16px;
+  }
+  .reviev__subtitle {
+    font-size: 16px !important;
+  }
+  .footer-main__block:first-child {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .popular-product,
+  .recomendation,
+  .reviev,
+  .footer-head,
+  .popular-product__black,
+  .popular-product_brown,
+  .products,
+  .products__text {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    margin: 0 25px;
+  }
+  .navigation {
+    padding: 0;
+    margin: 0 25px;
+  }
+  .navigation__link {
+    font-size: 16px;
+    margin: 0 20px;
+  }
+  .brands-bar {
+    margin: 60px 25px;
+  }
+  .recomendation__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .recomendation__button {
+    margin-bottom: 30px;
+  }
+  .recomendation__img {
+    display: none;
+  }
+  .container__text-search {
+    margin: 30px 0;
+  }
+  .container__text-button {
+    margin-bottom: 30px;
+  }
+  .products {
+    align-items: center;
+    margin: 40px 0;
+  }
+  .products__text {
+    align-items: center;
+  }
+  .products-text__description {
+    margin: 0;
+    padding: 0;
+  }
+  .reviev,
+  .reviev__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .slider-backgroud {
+    margin: 100px 0;
+  }
+  .reviev__description {
+    margin-bottom: 40px;
+  }
+  .footer-main__block:first-child {
+    display: none;
+  }
+}
