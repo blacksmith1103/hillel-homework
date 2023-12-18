@@ -318,7 +318,7 @@
   line-height: 32px;
 }
 .footer-main__block {
-  width: 30%;
+  /* width: 30%; */
 }
 .footer-main {
   justify-content: space-around;
